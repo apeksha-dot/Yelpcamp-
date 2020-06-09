@@ -14,7 +14,7 @@ var commentRoutes = require("./routes/comments"),
     campgroundRoutes = require("./routes/campgrounds"),
     indexRoutes = require("./routes/index")
 // seedDB();
-mongoose.connect("mongodb+srv://NHExoN4SE9R0LF6B:iWiL0NUpYaqRWWwO@cluster0-vhdak.mongodb.net/test?retryWrites=true&w=majority").then(() =>{
+mongoose.connect("mongodb+srv://NHExoN4SE9R0LF6B:<password>@cluster0-vhdak.mongodb.net/test?retryWrites=true&w=majority").then(() =>{
     console.log('connected');
 }).catch(err =>{
     console.log('Eroorororororororor')
